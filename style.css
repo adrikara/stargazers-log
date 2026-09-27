@@ -54,8 +54,15 @@ h1 {
   font-weight: 700;
 }
 
-.repo-item a:hover {
+.repo-item a:hover,
+.repo-item a:focus-visible {
   text-decoration: underline;
+}
+
+.repo-item a:focus-visible {
+  outline: 2px solid #58a6ff;
+  outline-offset: 3px;
+  border-radius: 4px;
 }
 
 .repo-item p {
