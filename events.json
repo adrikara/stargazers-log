@@ -1,0 +1,30 @@
+[
+  {
+    "name": "octo-profile",
+    "description": "A simple profile page for GitHub developers.",
+    "language": "JavaScript",
+    "stars": 240,
+    "url": "https://github.com/octocat/octo-profile"
+  },
+  {
+    "name": "code-review-hub",
+    "description": "Tools and workflows for collaborative code review.",
+    "language": "TypeScript",
+    "stars": 182,
+    "url": "https://github.com/microsoft/code-review-hub"
+  },
+  {
+    "name": "ship-it-cli",
+    "description": "A command-line toolkit for shipping software faster.",
+    "language": "Python",
+    "stars": 96,
+    "url": "https://github.com/github/ship-it-cli"
+  },
+  {
+    "name": "design-system-kit",
+    "description": "Reusable UI primitives for product teams.",
+    "language": "CSS",
+    "stars": 143,
+    "url": "https://github.com/primer/design-system-kit"
+  }
+]

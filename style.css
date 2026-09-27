@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #0d1117;
+  color: #e6edf3;
+}
+
+.container {
+  max-width: 760px;
+  margin: 3rem auto;
+  padding: 2rem;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+.eyebrow {
+  margin: 0 0 0.5rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: #8b949e;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+#repo-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 1rem;
+}
+
+.repo-item {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 12px;
+  padding: 1rem 1.25rem;
+}
+
+.repo-item a {
+  color: #58a6ff;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.repo-item a:hover {
+  text-decoration: underline;
+}
+
+.repo-item p {
+  margin: 0.6rem 0;
+  color: #c9d1d9;
+  line-height: 1.5;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  color: #8b949e;
+  font-size: 0.9rem;
+}
+
+.error {
+  padding: 1rem;
+  border: 1px solid #f85149;
+  border-radius: 8px;
+  background: rgba(248, 81, 73, 0.08);
+  color: #ffb3b0;
+}
